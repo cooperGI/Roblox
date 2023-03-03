@@ -1,0 +1,93 @@
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+h1{
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+h2{
+	color: white;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 15px double #4A4848;
+	border-radius: 20px;
+	width: 40%;
+	margin-left: 28%
+}
+
+nav{
+	text-align: center;
+	background-color: #DA1A1D;
+	margin-bottom: 10px;
+}
+
+nav li{
+	display: inline-block;
+
+}
+
+
+.hnav li{
+	padding: 10px 5px;
+
+}
+
+.hnav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.25em;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.fnav li{
+	padding: 10px 5px;
+}
+
+.fnav li a{
+	color: white;
+	text-decoration: none;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: .9em;
+}
+
+footer{
+	text-align: center;
+	color: white;
+}
+
+body{
+	background-color: #B2AEAF
+}
+
+p{
+	margin:20px 60px;
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+form{
+	color: white;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	font-size: 1.25em;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#submit, #reset{
+	padding: 3px;
+	margin: 2px;
+	font-size: 1.4em;
+	background-color: #DA1A1D;
+	color: white;
+}
